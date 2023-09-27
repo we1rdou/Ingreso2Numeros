@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2 numeros a ingresar</title>
+</head>
+<body>
+<script type="text/javascript"> 
+        let screen1, screen2, number1, number2; Cont=1; 
+        screen1=prompt ("Ingrese el primer numero"); 
+        number1= parseInt (number1) 
+        screen2=prompt("Ingrese el segundo numero"); 
+        number2= parseInt (number2) 
+            do{ 
+                if (Cont==1){ 
+                    var plus= parseInt(screen1) + parseInt(screen2); 
+                    alert("El resultado de la suma es: " + plus); 
+                    Cont++; 
+                } 
+                if (Cont==2){ 
+                    var less= parseInt(screen1) - parseInt(screen2); 
+                    alert("El resultado de la resta es: " + less); 
+                    Cont++; 
+                } 
+                if (Cont==3){ 
+                    var mul= parseInt(screen1) * parseInt(screen2); 
+                    alert("El resultado de la multiplicación es: " + mul); 
+                    Cont++; 
+                } 
+                if (Cont==4){ 
+                    var divi= parseInt(screen1) / parseInt(screen2); 
+                    alert ("El resultado de la división es: " + divi); 
+                    Cont++; 
+                } 
+                if (Cont==5){ 
+                    var mood= parseInt(screen1) % parseInt(screen2); 
+                    alert("El resultado del mood es: " + mood); 
+                    Cont++; 
+                    } 
+                }while (Cont<6); 
+</script> 
+        
+</body>
+</html>
